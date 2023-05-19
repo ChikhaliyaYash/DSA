@@ -7,9 +7,9 @@ int main(){
     char ch2 = '3';
     int num = 1 ;
 
-    switch(ch2){//in switch case can't use for string and flout variable
+    switch(num * 2){//in switch case can't use for string and flout variable {switch(any expretion write here)}
 
-        case 1: cout << "First" << endl;
+        case 2: cout << "First" << endl;
                 cout << "Frist one more time print" << endl;
                 break;
 
