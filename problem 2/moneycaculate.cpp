@@ -1,23 +1,33 @@
+//This problem is number of amount are write it and then find to how much notes are required , like RS(100,50,20,1) 
 #include<iostream>
 using namespace std;
 
 int main(){
 
-    int amount = 1330;
-    int RS  ;
-    cout << "Enter RS to convert how much Rupees are required "<< endl;
-    cin >> RS;
+    int amount;
+    cout<<"Enter amount: "<<endl;
+    int Rs100,Rs50,Rs20,Rs1;
+    cin>>amount;
+    
+    switch (1)
+    {
+    case 1: switch(1){
+            case 1:Rs100=amount/100;
+                amount=amount-Rs100*100;
+                cout<<"Total no. of notes of 100 : "<<Rs100<<endl;
+            
+            case 2: Rs50=amount/50;
+                    amount=amount-Rs50*50;
+                    cout<<"Total no. of notes of 50 : "<<Rs50<<endl;
 
-    switch(RS){
+            case 3: Rs20=amount/20;
+                    amount=amount-Rs20*20;
+                    cout<<"Total no. of notes of 20 : "<<Rs20<<endl;
 
-        case 100:cout << (amount / 100) << endl;
-        break;
-
-        case 50:cout << (amount / 50) << endl;
-        break;
-
-        case 20:cout << (amount / 20) << endl;
-        break;
+            case 4: Rs1=amount/1;
+                    amount=amount-Rs1*1;
+                    cout<<"Total no. of notes of 1 : "<<Rs1<<endl;
+        }
     }
-    cout << endl;
+    return 0;
 }

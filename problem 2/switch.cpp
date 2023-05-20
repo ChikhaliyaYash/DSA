@@ -1,3 +1,4 @@
+//this is a code example of how to switch work
 #include<iostream>
 using namespace std;
 
