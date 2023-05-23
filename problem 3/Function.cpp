@@ -8,7 +8,7 @@ int power(int a , int b){// also write {int power(write arguments , parameters)}
 
     //you can also write here to create variable, like 
     // int a,b;
-    // cin >> a >> b ;
+    // cin >> a >> b ; 
 
     int ans = 1;
 
