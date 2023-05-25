@@ -5,30 +5,29 @@
 //then we can store any different value = int car[5] = {[0...4] = 7} // car = [7,7,7,7,7]
                                         //int car[ ] = {[0...4] = 7} // car = [7,7,7,7,7]
                                         
-                                        // other way = 
-                                        #include<stdio.h>
+   // other way = 
+    #include<stdio.h>
 
-                                        int main(void)
-                                        {
-                                            int size = 8;
-                                            int val = 1;
+    int main(void)
+    {
+        int size = 8;
+        int val = 1;
 
-                                            // array declaration
-                                            int arr[size];
-                                            int i;
+        // array declaration
+        int arr[size];
+        int i;
 
-                                            // initializing array elements
-                                            for (i = 0; i < size ; i++){
-                                                arr[i] = val;
-                                            }
+        // initializing array elements
+        for (i = 0; i < size ; i++){
+            arr[i] = val;
+        }
 
-                                            // print array
-                                            printf("The array is:");
-                                            for (i = 0; i < size ; i++){
-                                                printf("%d ", arr[i]);
-                                            }
+        // print array
+        printf("The array is:");
+        for (i = 0; i < size ; i++){
+            printf("%d ", arr[i]);
+        }
 
-                                            return 0;
-                                        }
+        return 0;
+    }
 
- 
