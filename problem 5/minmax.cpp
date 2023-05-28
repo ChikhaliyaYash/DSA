@@ -14,7 +14,7 @@ int getMin(int num[], int n) {
         //}
     }
 
-    //returning min value
+
     return mini;
 }
 
@@ -31,7 +31,7 @@ int getMax(int num[], int n) {
        // }
     }
 
-    //returning max value
+
     return maxi;
 }
 
