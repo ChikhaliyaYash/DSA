@@ -10,7 +10,8 @@ void duplicate(int arr[] , int n){
 
     for(int i = 0 ; i < n ; i++){
 
-            if(start == next){
+            if(arr[i] == end){
+
                 cout << arr[i] << endl;
                 next++;
         }
@@ -19,7 +20,7 @@ void duplicate(int arr[] , int n){
 
 }
 
-void printduplicate(int arr[] , int n){
+void printarray(int arr[] , int n){
 
     for(int i = 0 ; i < n ; i++){
         cout << arr[i] << " ";  
@@ -34,7 +35,7 @@ int main(){
 
     duplicate(arr , 9);
 
-    printduplicate(arr , 9);
+    printarray(arr , 9);
 
     return 0;
 
