@@ -12,7 +12,7 @@ void swap2(int arr[], int n){
 //using while loop for array strating index to end index are looped
     while(start<=end){
         
-        //using swap function , it use for swap two number , ex = input {1,2} then output = {2,1}
+        //using swap inbuilt function , it use for swap two number , ex = input {1,2} then output = {2,1}
         swap(arr[start] , arr[next] );
         //so this problem is swapalternate number in array , ex = input {1,2,3,4} then output = {2,1,4,3}
         //so, first index 0 and 1 are swaped then next two index 2 and 3 swap
