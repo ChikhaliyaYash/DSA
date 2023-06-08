@@ -1,7 +1,7 @@
 // given array in a one element for find left most occurrence and right most occurrence
 // Ex = size of array = 8 and find element = 2 , array = {1,3,3,2,2,2,2,2} , so, output is left most occurrence is 3 index and right most occurrence is 7 index
 
-// one more QUE for binary search => find total number of occurrence , so logic are same but , her counting required for total number of occurrence find , first step is find last and first occurrence and last and first occurrence index are subtracting then 1 add like that is = lastindex - firstindex + 1;
+// one more QUE for binary search => find total number of occurrence , so logic are same but , her counting required for total number of occurrence find , first step is find last and first occurrence and last and first occurrence index are subtracting then 1 add like that is = lastindex - firstindex + 1; (use binary search and linear search)
 
 
 #include<iostream>
