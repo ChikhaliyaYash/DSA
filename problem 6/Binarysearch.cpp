@@ -42,24 +42,5 @@ int main() {
 
     cout << " Index of 14 is " << oddIndex << endl;
 
-
     return 0;
-}
-
-int findPeak(int arr[], int n) {
-
-    int s =0, e = n-1;
-    int mid = s + (e-s)/2;
-
-    while(s<e) {
-        cout<<" s " << s <<" e " << e << endl;
-        if(arr[mid] < arr[mid+1]){
-            s = mid+1; 
-        }
-        else{
-            e = mid;
-        }
-        mid = s + (e-s)/2;
-    }
-    return s;
 }

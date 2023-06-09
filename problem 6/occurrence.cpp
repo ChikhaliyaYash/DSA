@@ -7,7 +7,7 @@
 #include<iostream>
 #include <vector>
 using namespace std;
-// int firstOcc(vector<int> &arr, int n, int key)
+// int firstOcc(vector<int> &arr, int n, int key) // create vector 
 int firstOcc(int arr[], int n, int key)
 {
 
@@ -36,7 +36,7 @@ int firstOcc(int arr[], int n, int key)
     return ans;
 }
 
-// int lastOcc(vector<int> &arr, int n, int key)
+// int lastOcc(vector<int> &arr, int n, int key) // create vector
 int lastOcc(int arr[], int n, int key){
 
     int s = 0, e = n - 1;
