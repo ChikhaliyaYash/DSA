@@ -1,3 +1,4 @@
+//pivot means find minimum element in array using binary search
 #include<iostream>
 using namespace std;
 
