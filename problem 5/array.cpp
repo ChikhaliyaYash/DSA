@@ -7,8 +7,10 @@
                                         
    // other way = 
     #include<stdio.h>
+    #include<iostream>
+    using namespace std;
 
-    int main(void)
+    int main()
     {
         int size = 8;
         int val = 1;
@@ -23,9 +25,9 @@
         }
 
         // print array
-        printf("The array is:");
+        cout << "The array is:" << endl;
         for (i = 0; i < size ; i++){
-            printf("%d ", arr[i]);
+            cout << arr[i] << endl;
         }
 
         return 0;
