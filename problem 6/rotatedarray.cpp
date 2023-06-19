@@ -49,19 +49,44 @@ int binarySearch(int arr[], int s, int e, int key) {
     return -1;
 }
 
+int main(){
 
+    int arr[5] = {14,15,1,3,4};
+    int n = 0;
+    int k = 0;
+    cout << "enter arr size" << endl;
+    cin >> n ;
+    // cout << "enter arr elements: " << endl;
+    // cin  >> arr;
+    cout << "enter serach element" << endl;
+    cin >> k; 
 
-int findPosition(int arr[], int n, int k)
-{
-    int pivot = getPivot(arr, n);
-    cin >> arr ;
+    int pivot = getPivot(arr,n);
+
     if( k >= arr[pivot] && k <= arr[n-1])
     {//BS on second line
-        return binarySearch(arr, pivot, n-1, k);
+        cout << "second line " << binarySearch(arr, pivot, n-1, k) << endl;
     }
     else
     {//BS on first line
-        return binarySearch(arr, 0, pivot - 1, k);
+        cout << "first line " << binarySearch(arr, 0, pivot - 1, k) << endl;
     }
-    
+
 }
+
+//this using vector 
+
+// int findPosition(vector<int>arr, int n, int k)
+// {
+//     int pivot = getPivot(arr, n);
+
+//     if( k >= arr[pivot] && k <= arr[n-1])
+//     {//BS on second line
+//         return binarySearch(arr, pivot, n-1, k);
+//     }
+//     else
+//     {//BS on first line
+//         return binarySearch(arr, 0, pivot - 1, k);
+//     }
+    
+// }
