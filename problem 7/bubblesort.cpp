@@ -19,7 +19,7 @@ void bubbleSort(vector<int> arr , int n)
         }
         
         if(swapped == false) {
-            //already sorted
+            //already sorted :
             break;
         }
            
