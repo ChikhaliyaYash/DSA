@@ -1,4 +1,4 @@
-//word is Check Palindrome or not with word is converting into lowercase  
+//Check word is Palindrome or not with word is converting into lowercase  
 
 #include<iostream>
 using namespace std;
