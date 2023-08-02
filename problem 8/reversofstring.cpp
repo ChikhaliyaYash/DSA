@@ -1,3 +1,4 @@
+//this is reversed a string but, here some intresting problem, given a string then revered one spefic word are reversed not for all string  
 #include<iostream>
 #include<string>
 #include<vector>
