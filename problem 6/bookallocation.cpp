@@ -1,3 +1,5 @@
+//this problem is book allocation problem, in a problem is many student are get the book and here what students are what type of book allocated and one book are one to many student are get. so, find number of students and allocated book page one by one.
+ 
 #include<vector>
 using namespace std;
 
@@ -9,7 +11,7 @@ bool isPossible(vector<int> arr, int n, int m, int mid) {
     for(int i = 0; i<n; i++) {
         if(pageSum + arr[i] <= mid) {
             pageSum += arr[i];
-        }
+        }   
         else
         {
             studentCount++;
