@@ -1,4 +1,5 @@
 //give a string and in this string find space then , replaced @ or 4 
+
 #include<iostream>
 #include<string>
 using namespace std;
